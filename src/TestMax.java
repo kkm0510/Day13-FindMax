@@ -1,22 +1,39 @@
-public class TestMax {
+public class TestMax <E extends Comparable<E>>{
 
-    public static <T extends Comparable<T>> T findMax(T a, T b, T c){
+    E a;
+    E b;
+    E c;
+
+    TestMax(E a, E b, E c){
+        this.a=a;
+        this.b=b;
+        this.c=c;
+    }
+
+
+    public void testMaximum(){
+        findMax(a, b, c);
+    }
+
+    public static <T extends Comparable<T>> void findMax(T a, T b, T c){
         T max=a;
         if(b.compareTo(max)>0) max=b;
         if(c.compareTo(max)>0) max=c;
-        return max;
+        System.out.println(max);
     }
 
     public static void main(String[] args) {
+        new TestMax<Integer>(4, 2, 3).testMaximum();
+        new TestMax<Integer>(2, 4, 3).testMaximum();
+        new TestMax<Integer>(2, 3, 4).testMaximum();
 
-        System.out.println("TC-1.1 : " + findMax(4, 2, 3));
-        System.out.println("TC-1.2 : " + findMax(2, 4, 3));
-        System.out.println("TC-1.3 : " + findMax(2, 3, 4));
-        System.out.println("TC-2.1 : " + findMax(4.0f, 2.0f, 3.0f));
-        System.out.println("TC-2.2 : " + findMax(2.0f, 4.0f, 3.0f));
-        System.out.println("TC-2.3 : " + findMax(2.0f, 3.0f, 4.0f));
-        System.out.println("TC-3.1 : " + findMax("Apple", "Peach", "Banana"));
-        System.out.println("TC-3.2 : " + findMax("Apple", "Peach", "Banana"));
-        System.out.println("TC-3.3 : " + findMax("Apple", "Peach", "Banana"));
+        new TestMax<Float>(4.0f, 2.0f, 3.0f).testMaximum();
+        new TestMax<Float>(2.0f, 4.0f, 3.0f).testMaximum();
+        new TestMax<Float>(2.0f, 3.0f, 4.0f).testMaximum();
+
+        new TestMax<String>("Apple", "Banana", "Peach").testMaximum();
+        new TestMax<String>("Banana", "Apple", "Peach").testMaximum();
+        new TestMax<String>("Banana", "Peach", "Apple").testMaximum();
+
     }
 }

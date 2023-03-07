@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b52805c1-4fb3-4106-9952-759f220aa781" name="Changes" comment="ADDED : code to find max of 3 strings" />
+    <list default="true" id="b52805c1-4fb3-4106-9952-759f220aa781" name="Changes" comment="REFACTORED : all findMax() to one generic method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestMax.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="UC2-THREE_FLOATS_MAX" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -66,13 +69,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678167627047</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="REFACTORED : all findMax() to one generic method">
+      <created>1678169630249</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678169630249</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ADDED : TextMax class" />
     <MESSAGE value="ADDED : code to find max of 3 floats" />
     <MESSAGE value="ADDED : code to find max of 3 strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDED : code to find max of 3 strings" />
+    <MESSAGE value="REFACTORED : all findMax() to one generic method" />
+    <option name="LAST_COMMIT_MESSAGE" value="REFACTORED : all findMax() to one generic method" />
   </component>
 </project>
