@@ -12,21 +12,21 @@ public class TestMax<E extends Comparable<E>> {
         this.c = c;
     }
 
-    public E testMaximum(E... elements) {
-        return testMaximum(a, b, c, elements);
+    public void testMaximum(E... elements) {
+        printMaximum(a, b, c, elements);
     }
 
-    public static <T extends Comparable<T>> T testMaximum(T a, T b, T c, T... elements) {
+    public static <T extends Comparable<T>>  void printMaximum(T a, T b, T c, T... elements) {
         Arrays.sort(elements);
         T max=elements[elements.length-1];
         if(a.compareTo(max)>0) max=c;
         if(b.compareTo(max)>0) max=b;
         if(c.compareTo(max)>0) max=c;
-        return max;
+        System.out.println("Max = "+max);
     }
 
     public static void main(String[] args) {
         TestMax<String> test=new TestMax<>("apple","banana","grapes");
-        System.out.println("Max = " + test.testMaximum("mango", "papaya"));
+        test.testMaximum("mango", "papaya");
     }
 }
