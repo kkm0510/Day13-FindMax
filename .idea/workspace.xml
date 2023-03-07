@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b52805c1-4fb3-4106-9952-759f220aa781" name="Changes" comment="ADDED : code to find max of 3 strings">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestMax.java" afterDir="false" />
-    </list>
+    <list default="true" id="b52805c1-4fb3-4106-9952-759f220aa781" name="Changes" comment="ADDED : code to find max of 3 strings" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
