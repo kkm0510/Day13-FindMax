@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b52805c1-4fb3-4106-9952-759f220aa781" name="Changes" comment="ADDED : TextMax class">
+    <list default="true" id="b52805c1-4fb3-4106-9952-759f220aa781" name="Changes" comment="ADDED : code to find max of 3 strings">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="UC2-THREE_FLOATS_MAX" />
       </map>
     </option>
   </component>
@@ -54,11 +55,27 @@
       <option name="project" value="LOCAL" />
       <updated>1678166284735</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ADDED : code to find max of 3 floats">
+      <created>1678167322922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678167322922</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ADDED : code to find max of 3 strings">
+      <created>1678167627047</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678167627047</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ADDED : TextMax class" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDED : TextMax class" />
+    <MESSAGE value="ADDED : code to find max of 3 floats" />
+    <MESSAGE value="ADDED : code to find max of 3 strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED : code to find max of 3 strings" />
   </component>
 </project>
