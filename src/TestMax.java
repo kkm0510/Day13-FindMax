@@ -1,39 +1,30 @@
-public class TestMax <E extends Comparable<E>>{
+import java.util.Arrays;
+
+public class TestMax<E extends Comparable<E>> {
 
     E a;
     E b;
     E c;
 
-    TestMax(E a, E b, E c){
-        this.a=a;
-        this.b=b;
-        this.c=c;
+    TestMax(E a, E b, E c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
     }
 
-
-    public void testMaximum(){
-        findMax(a, b, c);
+    public E testMaximum() {
+        return findMax(a, b, c);
     }
 
-    public static <T extends Comparable<T>> void findMax(T a, T b, T c){
-        T max=a;
-        if(b.compareTo(max)>0) max=b;
-        if(c.compareTo(max)>0) max=c;
-        System.out.println(max);
+    public static <T extends Comparable<T>> T findMax(T... elements) {
+        Arrays.sort(elements);
+        return elements[elements.length-1];
     }
 
     public static void main(String[] args) {
-        new TestMax<>(4, 2, 3).testMaximum();
-        new TestMax<>(2, 4, 3).testMaximum();
-        new TestMax<>(2, 3, 4).testMaximum();
-
-        new TestMax<>(4.0f, 2.0f, 3.0f).testMaximum();
-        new TestMax<>(2.0f, 4.0f, 3.0f).testMaximum();
-        new TestMax<>(2.0f, 3.0f, 4.0f).testMaximum();
-
-        new TestMax<>("Apple", "Banana", "Peach").testMaximum();
-        new TestMax<>("Banana", "Apple", "Peach").testMaximum();
-        new TestMax<>("Banana", "Peach", "Apple").testMaximum();
-
+        System.out.println(new TestMax<>(4, 2, 3).testMaximum());
+        System.out.println(new TestMax<>(4.0f, 2.0f, 3.0f).testMaximum());
+        System.out.println(new TestMax<>("Apple", "Banana", "Peach").testMaximum());
+        System.out.println(findMax(1, 2, 3, 8, 1, 2));
     }
 }
