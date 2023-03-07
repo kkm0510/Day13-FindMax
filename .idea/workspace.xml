@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b52805c1-4fb3-4106-9952-759f220aa781" name="Changes" comment="REFACTORED : TestMax class to generic class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,13 +32,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/DELL/OneDrive/Desktop/Assignments/AddressBookSystem"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/OneDrive/Desktop/Assignments/AddressBookSystem&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678170894306</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ADDED : multiple parameters">
+      <created>1678195933063</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678195933063</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +110,7 @@
     <MESSAGE value="ADDED : code to find max of 3 strings" />
     <MESSAGE value="REFACTORED : all findMax() to one generic method" />
     <MESSAGE value="REFACTORED : TestMax class to generic class" />
-    <option name="LAST_COMMIT_MESSAGE" value="REFACTORED : TestMax class to generic class" />
+    <MESSAGE value="ADDED : multiple parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED : multiple parameters" />
   </component>
 </project>
