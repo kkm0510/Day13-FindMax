@@ -13,10 +13,10 @@ public class TestMax<E extends Comparable<E>> {
     }
 
     public E testMaximum(E... elements) {
-        return findMax(a, b, c, elements);
+        return testMaximum(a, b, c, elements);
     }
 
-    public static <T extends Comparable<T>> T findMax(T a, T b, T c, T... elements) {
+    public static <T extends Comparable<T>> T testMaximum(T a, T b, T c, T... elements) {
         Arrays.sort(elements);
         T max=elements[elements.length-1];
         if(a.compareTo(max)>0) max=c;
